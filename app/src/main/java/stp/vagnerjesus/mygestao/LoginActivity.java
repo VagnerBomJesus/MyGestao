@@ -6,10 +6,9 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
-    private ViewPager mSliderViewPager;
-    private LinearLayout mDotLayout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

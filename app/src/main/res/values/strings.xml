@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyGestao</string>
+    <string name="app_name">Gestão Developer</string>
     <string name="developer_academic">Developer Academic</string>
     <string name="nnj">nnj</string>
     <string name="vamos_comecar">Vamos Começar</string>
@@ -13,5 +13,11 @@
     <string name="seguinte">Seguinte</string>
     <string name="iniciar">Iniciar</string>
     <string name="com">Vamos Começar</string>
+    <string name="ol_bem_vindo">Olá, bem-vindo</string>
+    <string name="fa_a_login_para_continuar">Faça Login para continuar</string>
+    <string name="nome_do_usu_rio">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="novo_usu_rio">Novo Usuário  Inscreva-se!</string>
 
 </resources>
