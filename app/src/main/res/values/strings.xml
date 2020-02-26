@@ -2,4 +2,16 @@
     <string name="app_name">MyGestao</string>
     <string name="developer_academic">Developer Academic</string>
     <string name="nnj">nnj</string>
+    <string name="vamos_comecar">Vamos Começar</string>
+    <string name="titulo_slider1">Estabeleça os seus objectivos</string>
+    <string name="titulo_slider2">Selecione as suas atividades</string>
+    <string name="titulo_slider3">Alalise os resultados obtidos</string>
+    <string name="descricao1">Indentifique seus requisitos e defina suas metas para garantir ao maximo boas respostas e resultados genuínos.</string>
+    <string name="descricao2">Convide designers desenvolvedores e engenheiros para trabalharen juntos.</string>
+    <string name="descricao3">Obtenha bons resultados. Uma exposição escrita de um
+    determinado trabalho ou experiência laboratorial. </string>
+    <string name="seguinte">Seguinte</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="com">Vamos Começar</string>
+
 </resources>
