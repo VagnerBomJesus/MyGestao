@@ -13,7 +13,7 @@
         android:fontFamily="@font/ibm_bold"
         android:text="@string/vamos_comecar"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/red"
         android:textSize="28sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

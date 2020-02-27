@@ -19,5 +19,6 @@
     <string name="senha">Senha</string>
     <string name="esqueceu_a_senha">Esqueceu a senha?</string>
     <string name="novo_usu_rio">Novo Usuário  Inscreva-se!</string>
+    <string name="gest_o_developer">Gestão "\n"Developer</string>
 
 </resources>

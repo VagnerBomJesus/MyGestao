@@ -2,8 +2,10 @@
 <resources>
     <color name="colorPrimary">#262938</color>
     <color name="colorPrimaryDark">#181A24</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#75000000</color>
     <color name="colorWhite">#ffffff</color>
-    <color name="colorBlue">#1234F1</color>
+    <color name="colorBlue">#8A203AF1</color>
     <color name="colorTrasnparentWhite">#cccccc</color>
+    <color name="green">#D55CFE2F</color>
+    <color name="red">#C9EE1919</color>
 </resources>
