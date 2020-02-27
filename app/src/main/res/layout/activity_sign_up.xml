@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bem-vindo"
+        android:text="@string/bem_vindo"
         android:textSize="30sp"
         android:fontFamily="@font/bungee"
         android:textColor="#000"
@@ -39,7 +39,7 @@
         android:layout_marginBottom="10dp">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/nome"
+            android:id="@+id/reg_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/nome_completo"
@@ -53,7 +53,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/username"
+            android:id="@+id/reg_username"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/nome_do_usu_rio"
@@ -70,10 +70,10 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/email"
+            android:id="@+id/reg_email"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="E-mail"
+            android:hint="@string/e_mail"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -84,7 +84,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/phonenamber"
+            android:id="@+id/reg_phoneNo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/telem_vel"
@@ -98,7 +98,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/passworder"
+            android:id="@+id/reg_password"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/senha"
@@ -117,6 +117,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/reg_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/iniciar"
@@ -124,6 +125,7 @@
         android:textColor="#fff"
         android:transitionName="button_tran"/>
     <Button
+        android:id="@+id/reg_login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/j_tem_uma_conta_conecte_se"
