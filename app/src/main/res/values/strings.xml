@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Gestão Developer</string>
     <string name="developer_academic">Developer Academic</string>
-    <string name="nnj">nnj</string>
     <string name="vamos_comecar">Vamos Começar</string>
     <string name="titulo_slider1">Estabeleça os seus objectivos</string>
     <string name="titulo_slider2">Selecione as suas atividades</string>
@@ -12,7 +11,6 @@
     determinado trabalho ou experiência laboratorial. </string>
     <string name="seguinte">Seguinte</string>
     <string name="iniciar">Iniciar</string>
-    <string name="com">Vamos Começar</string>
     <string name="ol_bem_vindo">Olá, bem-vindo</string>
     <string name="fa_a_login_para_continuar">Faça Login para continuar</string>
     <string name="nome_do_usu_rio">Usuário</string>
@@ -20,5 +18,9 @@
     <string name="esqueceu_a_senha">Esqueceu a senha?</string>
     <string name="novo_usu_rio">Novo Usuário  Inscreva-se!</string>
     <string name="gest_o_developer">Gestão "\n"Developer</string>
+    <string name="inscreva_se_para_iniciar">Inscreva-se para iniciar sua nova jornada!</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="telem_vel">Telemóvel</string>
+    <string name="j_tem_uma_conta_conecte_se">Já tem uma conta? Conecte-se</string>
 
 </resources>

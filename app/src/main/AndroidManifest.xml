@@ -4,14 +4,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_"
+        android:icon="@mipmap/ic_launche"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher__round"
+        android:roundIcon="@mipmap/ic_launche_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
-
-        </activity>
+        <activity android:name=".SignUp"></activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IntroActivity" >
-
-
-        </activity>
+        <activity android:name=".IntroActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
