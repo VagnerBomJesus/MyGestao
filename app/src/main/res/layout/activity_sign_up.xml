@@ -13,7 +13,8 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="120dp"
-        android:src="@drawable/slider3"/>
+        android:src="@drawable/slider3"
+        android:transitionName="logo_image"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,7 +22,8 @@
         android:textSize="30sp"
         android:fontFamily="@font/bungee"
         android:textColor="#000"
-        android:layout_marginTop="-20dp"/>
+        android:layout_marginTop="-20dp"
+        android:transitionName="logo_text"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,6 +103,7 @@
             android:layout_height="match_parent"
             android:hint="@string/senha"
             app:passwordToggleEnabled="true"
+            android:transitionName="password_tran"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -118,7 +121,8 @@
         android:layout_height="wrap_content"
         android:text="@string/iniciar"
         android:background="#000"
-        android:textColor="#fff"/>
+        android:textColor="#fff"
+        android:transitionName="button_tran"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -126,7 +130,8 @@
         android:background="#00000000"
         android:onClick="jatenho_conta"
         android:layout_marginTop="10dp"
-        android:textStyle="italic"/>
+        android:textStyle="italic"
+        android:transitionName="login_signup_tran"/>
 
 
 
