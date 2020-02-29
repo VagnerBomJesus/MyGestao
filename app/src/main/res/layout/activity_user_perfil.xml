@@ -14,7 +14,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:background="@color/green_profile"
+            android:background="@color/green"
             android:padding="20dp">
 
             <ImageView
@@ -60,7 +60,7 @@
                 android:layout_height="125dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardBackgroundColor="@color/green_profile"
+                app:cardBackgroundColor="@color/green"
                 app:cardElevation="10dp">
 
                 <RelativeLayout
@@ -101,7 +101,7 @@
                 android:layout_height="125dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardBackgroundColor="@color/green_profile"
+                app:cardBackgroundColor="@color/green"
                 app:cardElevation="10dp">
 
                 <RelativeLayout
@@ -209,7 +209,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/green_profile"
+                android:background="@color/green"
                 android:fontFamily="@font/bungee"
                 android:text="Atualizar" />
         </LinearLayout>
