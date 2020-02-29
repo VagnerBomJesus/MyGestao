@@ -88,13 +88,14 @@
         android:textStyle="italic"></Button>
 
     <Button
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/iniciar"
         android:background="@color/colorPrimaryDark"
         android:textColor="@color/colorWhite"
         android:layout_marginTop="5dp"
-        android:onClick="ir"
+        android:onClick="loginin"
         android:layout_marginBottom="5dp"
         android:transitionName="button_tran"
         />
@@ -113,6 +114,11 @@
         android:fontFamily="@font/ibm_semibold"
         android:transitionName="login_signup_tran"></Button>
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>

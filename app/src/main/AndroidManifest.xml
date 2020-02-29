@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launche_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserPerfil"></activity>
+        <activity android:name=".VerificaPhone"></activity>
+        <activity android:name=".UserPerfil" />
         <activity android:name=".SignUp" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashScreenActivity">

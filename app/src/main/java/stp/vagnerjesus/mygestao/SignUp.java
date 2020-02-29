@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.DatabaseReference;
@@ -16,6 +18,7 @@ public class SignUp extends AppCompatActivity {
     TextInputLayout regName, regUsername,
             regEmail, regPhoneNo, regPassword;
     Button regBtn, regToLoginBtn;
+    ProgressBar progressBar2;
 
 
     FirebaseDatabase rootNode;
@@ -26,6 +29,7 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
         //activity_sign_up.xml
+
         regName = findViewById(R.id.reg_name);
         regUsername = findViewById(R.id.reg_username);
         regEmail = findViewById(R.id.reg_email);
@@ -56,9 +60,22 @@ public class SignUp extends AppCompatActivity {
         String phoneNo = regPhoneNo.getEditText().getText().toString();
         String password = regPassword.getEditText().getText().toString();
 
-        UserHelperClass helperClass = new UserHelperClass(name,username,email,phoneNo,password);
 
-        reference.child(username).setValue(helperClass);
+        Intent intent = new Intent(getApplicationContext(),VerificaPhone.class);
+        intent.putExtra("phoneNo",phoneNo);
+        startActivity(intent);
+
+        //UserHelperClass helperClass = new UserHelperClass(name,username,email,phoneNo,password);
+
+        //reference.child(username).setValue(helperClass);
+
+
+
+        /* intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+        Toast.makeText(this, "Sua conta foi criada com sucesso", Toast.LENGTH_SHORT).show();
+
+        //Toast.makeText(this, "Seja Bem Vindo", Toast.LENGTH_SHORT).show();*/
     }
 
     ///Validacoes
