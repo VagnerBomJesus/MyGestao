@@ -12,9 +12,9 @@
 
     <ImageView
         android:layout_width="150dp"
-        android:layout_height="120dp"
+        android:layout_height="78dp"
         android:src="@drawable/slider3"
-        android:transitionName="logo_image"/>
+        android:transitionName="logo_image" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,6 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
         android:text="@string/inscreva_se_para_iniciar"
         android:textSize="18sp"
         android:textColor="@color/colorPrimary"
@@ -120,10 +121,12 @@
         android:id="@+id/reg_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/iniciar"
         android:background="#000"
+        android:onClick="registerUser"
+        android:text="@string/iniciar"
         android:textColor="#fff"
-        android:transitionName="button_tran"/>
+        android:transitionName="button_tran" />
+
     <Button
         android:id="@+id/reg_login_btn"
         android:layout_width="match_parent"

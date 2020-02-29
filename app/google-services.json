@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1028932857837",
+    "firebase_url": "https://mygestao-b6c87.firebaseio.com",
+    "project_id": "mygestao-b6c87",
+    "storage_bucket": "mygestao-b6c87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028932857837:android:27837636550e2c889dc1e4",
+        "android_client_info": {
+          "package_name": "stp.vagnerjesus.mygestao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028932857837-39i0nsmm48tqsdnt0pin41jgse42h19u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stp.vagnerjesus.mygestao",
+            "certificate_hash": "50d13c6b2d06a0f7d74e3cf4f88187935ee74259"
+          }
+        },
+        {
+          "client_id": "1028932857837-pfe8m1savgivt14rf9df5lrk55vsb8s0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCznFgtM37Ha_bYfqbDulbFATt3_zdUxXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028932857837-pfe8m1savgivt14rf9df5lrk55vsb8s0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
