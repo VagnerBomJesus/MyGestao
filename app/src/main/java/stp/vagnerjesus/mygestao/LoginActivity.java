@@ -19,6 +19,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+
+
     //Button de ir para criar novo usuario
     public void createnovo(View view){
         Intent intent = new Intent(this, SignUp.class);
